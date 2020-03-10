@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jinpeng Wei | Jianshu Liu at LSU</title>
+    <link>/authors/jinpeng-wei/</link>
+      <atom:link href="/authors/jinpeng-wei/index.xml" rel="self" type="application/rss+xml" />
+    <description>Jinpeng Wei</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © 2020 Jianshu Liu</copyright><lastBuildDate>Sat, 07 Mar 2020 22:15:16 -0600</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>Jinpeng Wei</title>
+      <link>/authors/jinpeng-wei/</link>
+    </image>
+    
+    <item>
+      <title>Mitigating Large Response Time Fluctuations through Fast Concurrency Adapting in Clouds</title>
+      <link>/publication/ipdps20/</link>
+      <pubDate>Sat, 07 Mar 2020 22:15:16 -0600</pubDate>
+      <guid>/publication/ipdps20/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

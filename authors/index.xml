@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Authors | Jianshu Liu at LSU</title>
+    <link>/authors/</link>
+      <atom:link href="/authors/index.xml" rel="self" type="application/rss+xml" />
+    <description>Authors</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © 2020 Jianshu Liu</copyright><lastBuildDate>Sat, 07 Mar 2020 22:15:16 -0600</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>Authors</title>
+      <link>/authors/</link>
+    </image>
+    
+    <item>
+      <title>__Jianshu Liu__</title>
+      <link>/authors/__jianshu-liu__/</link>
+      <pubDate>Sat, 07 Mar 2020 22:15:16 -0600</pubDate>
+      <guid>/authors/__jianshu-liu__/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Jinpeng Wei</title>
+      <link>/authors/jinpeng-wei/</link>
+      <pubDate>Sat, 07 Mar 2020 22:15:16 -0600</pubDate>
+      <guid>/authors/jinpeng-wei/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Qingyang Wang</title>
+      <link>/authors/qingyang-wang/</link>
+      <pubDate>Sat, 07 Mar 2020 22:15:16 -0600</pubDate>
+      <guid>/authors/qingyang-wang/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Shungeng Zhang</title>
+      <link>/authors/shungeng-zhang/</link>
+      <pubDate>Sat, 07 Mar 2020 22:15:16 -0600</pubDate>
+      <guid>/authors/shungeng-zhang/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>and Jinpeng Wei</title>
+      <link>/authors/and-jinpeng-wei/</link>
+      <pubDate>Wed, 10 Jul 2019 21:38:19 -0600</pubDate>
+      <guid>/authors/and-jinpeng-wei/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Huasong Shan</title>
+      <link>/authors/huasong-shan/</link>
+      <pubDate>Wed, 10 Jul 2019 21:38:19 -0600</pubDate>
+      <guid>/authors/huasong-shan/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Qiben Yan</title>
+      <link>/authors/qiben-yan/</link>
+      <pubDate>Wed, 10 Jul 2019 21:38:19 -0600</pubDate>
+      <guid>/authors/qiben-yan/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/authors/admin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/authors/admin/</guid>
+      <description>&lt;p&gt;I am a graduate student currently pursing Ph.D. degree in Division of Computer Science and Engineering at Louisiana State University, Baton Rouge. I am presently working in the cloud computing lab as a research assistant under Dr. Qingyang Wang.
+My interest lies in performance and scalability analysis of asynchronous internet server architecture, with the aim of achieving highly responsive web applications running at high utilization in cloud. My research focuses on automated measurements and analysis of performance evaluation and tuning of n-tier web applications.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
