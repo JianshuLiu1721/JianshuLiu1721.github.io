@@ -5,7 +5,7 @@
     <link>/authors/qingyang-wang/</link>
       <atom:link href="/authors/qingyang-wang/index.xml" rel="self" type="application/rss+xml" />
     <description>Qingyang Wang</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © 2020 Jianshu Liu</copyright><lastBuildDate>Sat, 07 Mar 2020 22:15:16 -0600</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © 2020 Jianshu Liu</copyright><lastBuildDate>Fri, 15 May 2020 20:26:16 -0600</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>Qingyang Wang</title>
@@ -15,7 +15,7 @@
     <item>
       <title>Mitigating Large Response Time Fluctuations through Fast Concurrency Adapting in Clouds</title>
       <link>/publication/ipdps20/</link>
-      <pubDate>Sat, 07 Mar 2020 22:15:16 -0600</pubDate>
+      <pubDate>Fri, 15 May 2020 20:26:16 -0600</pubDate>
       <guid>/publication/ipdps20/</guid>
       <description></description>
     </item>
