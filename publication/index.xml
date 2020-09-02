@@ -5,12 +5,20 @@
     <link>https://jianshuliu1721.github.io/publication/</link>
       <atom:link href="https://jianshuliu1721.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © 2020 Jianshu Liu</copyright><lastBuildDate>Fri, 15 May 2020 20:26:16 -0600</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © 2020 Jianshu Liu</copyright><lastBuildDate>Tue, 01 Sep 2020 22:31:07 -0500</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>Publications</title>
       <link>https://jianshuliu1721.github.io/publication/</link>
     </image>
+    
+    <item>
+      <title>DoubleFaceAD:A New Datastore Drive Architecture to Optimize Fanout Query Performance</title>
+      <link>https://jianshuliu1721.github.io/publication/middleware20/</link>
+      <pubDate>Tue, 01 Sep 2020 22:31:07 -0500</pubDate>
+      <guid>https://jianshuliu1721.github.io/publication/middleware20/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Mitigating Large Response Time Fluctuations through Fast Concurrency Adapting in Clouds</title>
