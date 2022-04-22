@@ -5,12 +5,28 @@
     <link>https://jianshuliu1721.github.io/authors/shungeng-zhang/</link>
       <atom:link href="https://jianshuliu1721.github.io/authors/shungeng-zhang/index.xml" rel="self" type="application/rss+xml" />
     <description>Shungeng Zhang</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © 2020 Jianshu Liu</copyright><lastBuildDate>Tue, 01 Sep 2020 22:31:07 -0500</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © 2022 Jianshu Liu</copyright><lastBuildDate>Fri, 22 Apr 2022 11:12:16 -0600</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>Shungeng Zhang</title>
       <link>https://jianshuliu1721.github.io/authors/shungeng-zhang/</link>
     </image>
+    
+    <item>
+      <title>Coordinating Fast Concurrency Adapting with Autoscaling for SLO-Oriented Web Applications</title>
+      <link>https://jianshuliu1721.github.io/publication/tpds22/</link>
+      <pubDate>Fri, 22 Apr 2022 11:12:16 -0600</pubDate>
+      <guid>https://jianshuliu1721.github.io/publication/tpds22/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Functional Model and Analysis of Next Generation Malware Attacks and Defenses</title>
+      <link>https://jianshuliu1721.github.io/publication/tps-isa21/</link>
+      <pubDate>Mon, 13 Dec 2021 22:31:07 -0500</pubDate>
+      <guid>https://jianshuliu1721.github.io/publication/tps-isa21/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>DoubleFaceAD:A New Datastore Drive Architecture to Optimize Fanout Query Performance</title>

@@ -5,7 +5,7 @@
     <link>https://jianshuliu1721.github.io/authors/</link>
       <atom:link href="https://jianshuliu1721.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © 2020 Jianshu Liu</copyright><lastBuildDate>Tue, 01 Sep 2020 22:31:07 -0500</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © 2022 Jianshu Liu</copyright><lastBuildDate>Fri, 22 Apr 2022 11:12:16 -0600</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>Authors</title>
@@ -15,8 +15,72 @@
     <item>
       <title>__Jianshu Liu__</title>
       <link>https://jianshuliu1721.github.io/authors/__jianshu-liu__/</link>
-      <pubDate>Tue, 01 Sep 2020 22:31:07 -0500</pubDate>
+      <pubDate>Fri, 22 Apr 2022 11:12:16 -0600</pubDate>
       <guid>https://jianshuliu1721.github.io/authors/__jianshu-liu__/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>and Jinpeng Wei</title>
+      <link>https://jianshuliu1721.github.io/authors/and-jinpeng-wei/</link>
+      <pubDate>Fri, 22 Apr 2022 11:12:16 -0600</pubDate>
+      <guid>https://jianshuliu1721.github.io/authors/and-jinpeng-wei/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Qingyang Wang</title>
+      <link>https://jianshuliu1721.github.io/authors/qingyang-wang/</link>
+      <pubDate>Fri, 22 Apr 2022 11:12:16 -0600</pubDate>
+      <guid>https://jianshuliu1721.github.io/authors/qingyang-wang/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Shungeng Zhang</title>
+      <link>https://jianshuliu1721.github.io/authors/shungeng-zhang/</link>
+      <pubDate>Fri, 22 Apr 2022 11:12:16 -0600</pubDate>
+      <guid>https://jianshuliu1721.github.io/authors/shungeng-zhang/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Calton Pu</title>
+      <link>https://jianshuliu1721.github.io/authors/calton-pu/</link>
+      <pubDate>Mon, 13 Dec 2021 22:31:07 -0500</pubDate>
+      <guid>https://jianshuliu1721.github.io/authors/calton-pu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Joshua Kimball</title>
+      <link>https://jianshuliu1721.github.io/authors/joshua-kimball/</link>
+      <pubDate>Mon, 13 Dec 2021 22:31:07 -0500</pubDate>
+      <guid>https://jianshuliu1721.github.io/authors/joshua-kimball/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rodrigo Alves Lima</title>
+      <link>https://jianshuliu1721.github.io/authors/rodrigo-alves-lima/</link>
+      <pubDate>Mon, 13 Dec 2021 22:31:07 -0500</pubDate>
+      <guid>https://jianshuliu1721.github.io/authors/rodrigo-alves-lima/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Xuhang Gu</title>
+      <link>https://jianshuliu1721.github.io/authors/xuhang-gu/</link>
+      <pubDate>Mon, 13 Dec 2021 22:31:07 -0500</pubDate>
+      <guid>https://jianshuliu1721.github.io/authors/xuhang-gu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Yasuhiko Kanemasa</title>
+      <link>https://jianshuliu1721.github.io/authors/yasuhiko-kanemasa/</link>
+      <pubDate>Mon, 13 Dec 2021 22:31:07 -0500</pubDate>
+      <guid>https://jianshuliu1721.github.io/authors/yasuhiko-kanemasa/</guid>
       <description></description>
     </item>
     
@@ -25,38 +89,6 @@
       <link>https://jianshuliu1721.github.io/authors/and-calton-pu/</link>
       <pubDate>Tue, 01 Sep 2020 22:31:07 -0500</pubDate>
       <guid>https://jianshuliu1721.github.io/authors/and-calton-pu/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Qingyang Wang</title>
-      <link>https://jianshuliu1721.github.io/authors/qingyang-wang/</link>
-      <pubDate>Tue, 01 Sep 2020 22:31:07 -0500</pubDate>
-      <guid>https://jianshuliu1721.github.io/authors/qingyang-wang/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Shungeng Zhang</title>
-      <link>https://jianshuliu1721.github.io/authors/shungeng-zhang/</link>
-      <pubDate>Tue, 01 Sep 2020 22:31:07 -0500</pubDate>
-      <guid>https://jianshuliu1721.github.io/authors/shungeng-zhang/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Yasuhiko Kanemasa</title>
-      <link>https://jianshuliu1721.github.io/authors/yasuhiko-kanemasa/</link>
-      <pubDate>Tue, 01 Sep 2020 22:31:07 -0500</pubDate>
-      <guid>https://jianshuliu1721.github.io/authors/yasuhiko-kanemasa/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>and Jinpeng Wei</title>
-      <link>https://jianshuliu1721.github.io/authors/and-jinpeng-wei/</link>
-      <pubDate>Fri, 15 May 2020 20:26:16 -0600</pubDate>
-      <guid>https://jianshuliu1721.github.io/authors/and-jinpeng-wei/</guid>
       <description></description>
     </item>
     
@@ -81,10 +113,10 @@
       <link>https://jianshuliu1721.github.io/authors/admin/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://jianshuliu1721.github.io/authors/admin/</guid>
-      <description>&lt;p&gt;I am a graduate student currently pursing Ph.D. degree in Division of Computer Science and Engineering at 
-&lt;a href=&#34;https://www.lsu.edu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Louisiana State University&lt;/a&gt;, Baton Rouge. I am presently working in 
+      <description>&lt;p&gt;I am a 4th-year graduate student pursing Ph.D. degree in Division of Computer Science and Engineering at Louisiana State University, Baton Rouge. I am working in 
 &lt;a href=&#34;http://csc.lsu.edu/~qywang/ProjectWebsite/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;LSU Cloud Computing Lab&lt;/a&gt; as a research assistant under 
-&lt;a href=&#34;http://csc.lsu.edu/~qywang/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dr. Qingyang Wang&lt;/a&gt;. My interest lies in performance and scalability analysis of internet server architecture, with the aim of achieving highly responsive web applications running at high utilization in cloud. My research focuses on automated measurements and analysis of performance evaluation and tuning of n-tier web applications and microservice system.&lt;/p&gt;
+&lt;a href=&#34;http://csc.lsu.edu/~qywang/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dr. Qingyang Wang&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;My interest lies in performance and scalability analysis of large-scale web applications and IoT stream processing systems, with the aim of achieving highly responsive systems running at high utilization in cloud. My research focuses on automated measurements and analysis of system performance and applying learning techniques to bring better scalability and elasticity in the cloud.&lt;/p&gt;
 </description>
     </item>
     
