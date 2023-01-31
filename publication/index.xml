@@ -5,12 +5,20 @@
     <link>https://jianshuliu1721.github.io/publication/</link>
       <atom:link href="https://jianshuliu1721.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © 2022 Jianshu Liu</copyright><lastBuildDate>Fri, 22 Apr 2022 11:12:16 -0600</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © 2023 Jianshu Liu</copyright><lastBuildDate>Tue, 08 Nov 2022 22:31:07 -0500</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>Publications</title>
       <link>https://jianshuliu1721.github.io/publication/</link>
     </image>
+    
+    <item>
+      <title>ShadowSync: latency long tail caused by hidden synchronization in real-time LSM-tree based stream processing systems</title>
+      <link>https://jianshuliu1721.github.io/publication/middleware22/</link>
+      <pubDate>Tue, 08 Nov 2022 22:31:07 -0500</pubDate>
+      <guid>https://jianshuliu1721.github.io/publication/middleware22/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Coordinating Fast Concurrency Adapting with Autoscaling for SLO-Oriented Web Applications</title>

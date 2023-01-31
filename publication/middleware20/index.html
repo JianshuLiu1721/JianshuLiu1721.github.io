@@ -28,7 +28,7 @@
   
     
   
-  <meta name="description" content="">
+  <meta name="description" content="The broad adoption of fanout queries on distributed datastores has made asynchronous event-driven datastore drivers a natural choice due to reduced multithreading overhead. However, through extensive experiments using the latest datastore drivers (e.g., MongoDB, HBase, DynamoDB) and YCSB benchmark, we show that an asynchronous datastore driver can cause unexpected performance degradation especially in fanout-query scenarios. For example, the default MongoDB asynchronous driver adopts the latest Java asynchronous I/O library, which uses a hidden on-demand JVM level thread pool to process fanout query responses, causing a surprising multithreading overhead when the query response size is large. A second instance is the traditional wisdom of modular design of an application server and the embedded asynchronous datastore driver can cause an imbalanced workload between the two components due to lack of coordination, incurring frequent unnecessary system calls. To address the revealed problems, we introduce DoubleFaceAD–a new asynchronous datastore driver architecture that integrates the management of both upstream and downstream workload traffic through a few shared reactor threads, with a fanout-query-aware priority-based scheduling to reduce the overall query waiting time. Our experimental results on three representative application scenarios (YCSB, DBLP, and microservices) show DoubleFaceAD outperforms all other types of datastore drivers up to 34% on throughput and 2.5× faster on 95th percentile response time.">
 
   
   <link rel="alternate" hreflang="en-us" href="https://jianshuliu1721.github.io/publication/middleware20/">
@@ -231,7 +231,7 @@
   <meta property="og:site_name" content="Jianshu Liu at LSU">
   <meta property="og:url" content="https://jianshuliu1721.github.io/publication/middleware20/">
   <meta property="og:title" content="DoubleFaceAD:A New Datastore Drive Architecture to Optimize Fanout Query Performance | Jianshu Liu at LSU">
-  <meta property="og:description" content=""><meta property="og:image" content="img/map[gravatar:%!s(bool=false) shape:circle]">
+  <meta property="og:description" content="The broad adoption of fanout queries on distributed datastores has made asynchronous event-driven datastore drivers a natural choice due to reduced multithreading overhead. However, through extensive experiments using the latest datastore drivers (e.g., MongoDB, HBase, DynamoDB) and YCSB benchmark, we show that an asynchronous datastore driver can cause unexpected performance degradation especially in fanout-query scenarios. For example, the default MongoDB asynchronous driver adopts the latest Java asynchronous I/O library, which uses a hidden on-demand JVM level thread pool to process fanout query responses, causing a surprising multithreading overhead when the query response size is large. A second instance is the traditional wisdom of modular design of an application server and the embedded asynchronous datastore driver can cause an imbalanced workload between the two components due to lack of coordination, incurring frequent unnecessary system calls. To address the revealed problems, we introduce DoubleFaceAD–a new asynchronous datastore driver architecture that integrates the management of both upstream and downstream workload traffic through a few shared reactor threads, with a fanout-query-aware priority-based scheduling to reduce the overall query waiting time. Our experimental results on three representative application scenarios (YCSB, DBLP, and microservices) show DoubleFaceAD outperforms all other types of datastore drivers up to 34% on throughput and 2.5× faster on 95th percentile response time."><meta property="og:image" content="img/map[gravatar:%!s(bool=false) shape:circle]">
   <meta property="twitter:image" content="img/map[gravatar:%!s(bool=false) shape:circle]"><meta property="og:locale" content="en-us">
   
     
@@ -279,7 +279,7 @@
       "url": "https://jianshuliu1721.github.io/images/icon_hucff3a243dfd9168e751fa0ff5fc0aa39_4129_192x192_fill_lanczos_center_2.png"
     }
   },
-  "description": ""
+  "description": "The broad adoption of fanout queries on distributed datastores has made asynchronous event-driven datastore drivers a natural choice due to reduced multithreading overhead. However, through extensive experiments using the latest datastore drivers (e.g., MongoDB, HBase, DynamoDB) and YCSB benchmark, we show that an asynchronous datastore driver can cause unexpected performance degradation especially in fanout-query scenarios. For example, the default MongoDB asynchronous driver adopts the latest Java asynchronous I/O library, which uses a hidden on-demand JVM level thread pool to process fanout query responses, causing a surprising multithreading overhead when the query response size is large. A second instance is the traditional wisdom of modular design of an application server and the embedded asynchronous datastore driver can cause an imbalanced workload between the two components due to lack of coordination, incurring frequent unnecessary system calls. To address the revealed problems, we introduce DoubleFaceAD–a new asynchronous datastore driver architecture that integrates the management of both upstream and downstream workload traffic through a few shared reactor threads, with a fanout-query-aware priority-based scheduling to reduce the overall query waiting time. Our experimental results on three representative application scenarios (YCSB, DBLP, and microservices) show DoubleFaceAD outperforms all other types of datastore drivers up to 34% on throughput and 2.5× faster on 95th percentile response time."
 }
 </script>
 
@@ -685,6 +685,14 @@
 
 
 
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1" href="https://youtu.be/yyjIlz-YdVk" target="_blank" rel="noopener">
+  Video
+</a>
+
 
 
 <a class="btn btn-outline-primary my-1 mr-1" href="https://doi.org/10.1145/3423211.3425684" target="_blank" rel="noopener">
@@ -703,6 +711,9 @@
 
   <div class="article-container">
 
+    
+    <h3>Abstract</h3>
+    <p class="pub-abstract">The broad adoption of fanout queries on distributed datastores has made asynchronous event-driven datastore drivers a natural choice due to reduced multithreading overhead. However, through extensive experiments using the latest datastore drivers (e.g., MongoDB, HBase, DynamoDB) and YCSB benchmark, we show that an asynchronous datastore driver can cause unexpected performance degradation especially in fanout-query scenarios. For example, the default MongoDB asynchronous driver adopts the latest Java asynchronous I/O library, which uses a hidden on-demand JVM level thread pool to process fanout query responses, causing a surprising multithreading overhead when the query response size is large. A second instance is the traditional wisdom of modular design of an application server and the embedded asynchronous datastore driver can cause an imbalanced workload between the two components due to lack of coordination, incurring frequent unnecessary system calls. To address the revealed problems, we introduce DoubleFaceAD–a new asynchronous datastore driver architecture that integrates the management of both upstream and downstream workload traffic through a few shared reactor threads, with a fanout-query-aware priority-based scheduling to reduce the overall query waiting time. Our experimental results on three representative application scenarios (YCSB, DBLP, and microservices) show DoubleFaceAD outperforms all other types of datastore drivers up to 34% on throughput and 2.5× faster on 95th percentile response time.</p>
     
 
     
@@ -732,7 +743,7 @@
       <div class="col-md-10">
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">Publication</div>
-          <div class="col-12 col-md-9">In the Proceedings of the 21st ACM/IFIP International Middleware Conference (Middleware&rsquo;20), Delft, Netherlands, December 2020</div>
+          <div class="col-12 col-md-9">In the Proceedings of the 21st ACM/IFIP International Middleware Conference, Delft, Netherlands, December 2020 <strong>(Middleware&rsquo;20)</strong></div>
         </div>
       </div>
       <div class="col-md-1"></div>
@@ -1008,7 +1019,7 @@
   
 
   <p class="powered-by">
-    Copyright © 2022 Jianshu Liu &middot; 
+    Copyright © 2023 Jianshu Liu &middot; 
 
     Powered by the
     <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for

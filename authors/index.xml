@@ -5,7 +5,7 @@
     <link>https://jianshuliu1721.github.io/authors/</link>
       <atom:link href="https://jianshuliu1721.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © 2022 Jianshu Liu</copyright><lastBuildDate>Fri, 22 Apr 2022 11:12:16 -0600</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © 2023 Jianshu Liu</copyright><lastBuildDate>Tue, 08 Nov 2022 22:31:07 -0500</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>Authors</title>
@@ -15,8 +15,48 @@
     <item>
       <title>__Jianshu Liu__</title>
       <link>https://jianshuliu1721.github.io/authors/__jianshu-liu__/</link>
-      <pubDate>Fri, 22 Apr 2022 11:12:16 -0600</pubDate>
+      <pubDate>Tue, 08 Nov 2022 22:31:07 -0500</pubDate>
       <guid>https://jianshuliu1721.github.io/authors/__jianshu-liu__/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>and Calton Pu</title>
+      <link>https://jianshuliu1721.github.io/authors/and-calton-pu/</link>
+      <pubDate>Tue, 08 Nov 2022 22:31:07 -0500</pubDate>
+      <guid>https://jianshuliu1721.github.io/authors/and-calton-pu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Julius Michaelis</title>
+      <link>https://jianshuliu1721.github.io/authors/julius-michaelis/</link>
+      <pubDate>Tue, 08 Nov 2022 22:31:07 -0500</pubDate>
+      <guid>https://jianshuliu1721.github.io/authors/julius-michaelis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Qingyang Wang</title>
+      <link>https://jianshuliu1721.github.io/authors/qingyang-wang/</link>
+      <pubDate>Tue, 08 Nov 2022 22:31:07 -0500</pubDate>
+      <guid>https://jianshuliu1721.github.io/authors/qingyang-wang/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Shungeng Zhang</title>
+      <link>https://jianshuliu1721.github.io/authors/shungeng-zhang/</link>
+      <pubDate>Tue, 08 Nov 2022 22:31:07 -0500</pubDate>
+      <guid>https://jianshuliu1721.github.io/authors/shungeng-zhang/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Yasuhiko Kanemasa</title>
+      <link>https://jianshuliu1721.github.io/authors/yasuhiko-kanemasa/</link>
+      <pubDate>Tue, 08 Nov 2022 22:31:07 -0500</pubDate>
+      <guid>https://jianshuliu1721.github.io/authors/yasuhiko-kanemasa/</guid>
       <description></description>
     </item>
     
@@ -25,22 +65,6 @@
       <link>https://jianshuliu1721.github.io/authors/and-jinpeng-wei/</link>
       <pubDate>Fri, 22 Apr 2022 11:12:16 -0600</pubDate>
       <guid>https://jianshuliu1721.github.io/authors/and-jinpeng-wei/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Qingyang Wang</title>
-      <link>https://jianshuliu1721.github.io/authors/qingyang-wang/</link>
-      <pubDate>Fri, 22 Apr 2022 11:12:16 -0600</pubDate>
-      <guid>https://jianshuliu1721.github.io/authors/qingyang-wang/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Shungeng Zhang</title>
-      <link>https://jianshuliu1721.github.io/authors/shungeng-zhang/</link>
-      <pubDate>Fri, 22 Apr 2022 11:12:16 -0600</pubDate>
-      <guid>https://jianshuliu1721.github.io/authors/shungeng-zhang/</guid>
       <description></description>
     </item>
     
@@ -77,22 +101,6 @@
     </item>
     
     <item>
-      <title>Yasuhiko Kanemasa</title>
-      <link>https://jianshuliu1721.github.io/authors/yasuhiko-kanemasa/</link>
-      <pubDate>Mon, 13 Dec 2021 22:31:07 -0500</pubDate>
-      <guid>https://jianshuliu1721.github.io/authors/yasuhiko-kanemasa/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>and Calton Pu</title>
-      <link>https://jianshuliu1721.github.io/authors/and-calton-pu/</link>
-      <pubDate>Tue, 01 Sep 2020 22:31:07 -0500</pubDate>
-      <guid>https://jianshuliu1721.github.io/authors/and-calton-pu/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Huasong Shan</title>
       <link>https://jianshuliu1721.github.io/authors/huasong-shan/</link>
       <pubDate>Wed, 10 Jul 2019 21:38:19 -0600</pubDate>
@@ -113,7 +121,7 @@
       <link>https://jianshuliu1721.github.io/authors/admin/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://jianshuliu1721.github.io/authors/admin/</guid>
-      <description>&lt;p&gt;I am a 4th-year graduate student pursing Ph.D. degree in Division of Computer Science and Engineering at Louisiana State University, Baton Rouge. I am working in 
+      <description>&lt;p&gt;I am a graduate student pursing Ph.D. degree in Division of Computer Science and Engineering at Louisiana State University, Baton Rouge. I am working in 
 &lt;a href=&#34;http://csc.lsu.edu/~qywang/ProjectWebsite/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;LSU Cloud Computing Lab&lt;/a&gt; as a research assistant under 
 &lt;a href=&#34;http://csc.lsu.edu/~qywang/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dr. Qingyang Wang&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;My interest lies in performance and scalability analysis of large-scale web applications and IoT stream processing systems, with the aim of achieving highly responsive systems running at high utilization in cloud. My research focuses on automated measurements and analysis of system performance and applying learning techniques to bring better scalability and elasticity in the cloud.&lt;/p&gt;

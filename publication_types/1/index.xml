@@ -5,12 +5,20 @@
     <link>https://jianshuliu1721.github.io/publication_types/1/</link>
       <atom:link href="https://jianshuliu1721.github.io/publication_types/1/index.xml" rel="self" type="application/rss+xml" />
     <description>1</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © 2022 Jianshu Liu</copyright><lastBuildDate>Mon, 13 Dec 2021 22:31:07 -0500</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © 2023 Jianshu Liu</copyright><lastBuildDate>Tue, 08 Nov 2022 22:31:07 -0500</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>1</title>
       <link>https://jianshuliu1721.github.io/publication_types/1/</link>
     </image>
+    
+    <item>
+      <title>ShadowSync: latency long tail caused by hidden synchronization in real-time LSM-tree based stream processing systems</title>
+      <link>https://jianshuliu1721.github.io/publication/middleware22/</link>
+      <pubDate>Tue, 08 Nov 2022 22:31:07 -0500</pubDate>
+      <guid>https://jianshuliu1721.github.io/publication/middleware22/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>A Functional Model and Analysis of Next Generation Malware Attacks and Defenses</title>
