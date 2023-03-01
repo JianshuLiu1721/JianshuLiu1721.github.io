@@ -5,12 +5,20 @@
     <link>https://jianshuliu1721.github.io/authors/__jianshu-liu__/</link>
       <atom:link href="https://jianshuliu1721.github.io/authors/__jianshu-liu__/index.xml" rel="self" type="application/rss+xml" />
     <description>__Jianshu Liu__</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © 2023 Jianshu Liu</copyright><lastBuildDate>Tue, 08 Nov 2022 22:31:07 -0500</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © 2023 Jianshu Liu</copyright><lastBuildDate>Fri, 24 Feb 2023 22:31:07 -0500</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>__Jianshu Liu__</title>
       <link>https://jianshuliu1721.github.io/authors/__jianshu-liu__/</link>
     </image>
+    
+    <item>
+      <title>Sora: A Latency Sensitive Approach for Microservice Soft Resource Adaption</title>
+      <link>https://jianshuliu1721.github.io/publication/middleware23/</link>
+      <pubDate>Fri, 24 Feb 2023 22:31:07 -0500</pubDate>
+      <guid>https://jianshuliu1721.github.io/publication/middleware23/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>ShadowSync: latency long tail caused by hidden synchronization in real-time LSM-tree based stream processing systems</title>
