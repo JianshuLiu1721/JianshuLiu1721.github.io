@@ -21,14 +21,14 @@
   
   
 
-  <meta name="author" content="Jianshu Liu  刘鉴庶">
+  <meta name="author" content="Jianshu Liu 刘鉴庶">
 
   
   
   
     
   
-  <meta name="description" content="">
+  <meta name="description" content="Fast response time for modern web services that include numerous distributed and lightweight microservices becomes increasingly important due to its business impact. While hardware-only resource scaling approaches (e.g., FIRM [47] and PARSLO [40]) have been proposed to mitigate response time fluctuations on critical microservices, the re-adaptation of soft resources (e.g., threads or connections) that control the concurrency of hardware resource usage has been largely ignored. This paper shows that the soft resource adaptation of critical microservices has a significant impact on system scalability because either under- or over-allocation of soft resources can lead to inefficient usage of underlying hardware resources. We present Sora, an intelligent, fast soft resource adaptation management framework for quickly identifying and adjusting the optimal concurrency level of critical microservices to mitigate service-level objective (SLO) violations. Sora leverages online finegrained system metrics and the propagated deadline along the critical path of request execution to quickly and accurately provide optimal concurrency setting for critical microservices. Based on six real-world bursty workload traces and two representative microservices benchmarks (Sock Shop and Social Network), our experimental results show that Sora can effectively mitigate large response time fluctuations and reduce the 99th percentile latency by up to 2.5× compared to the hardware-only scaling strategy FIRM [47] and 1.5× to the state-of-the-art concurrency-aware system scaling strategy ConScale.">
 
   
   <link rel="alternate" hreflang="en-us" href="https://jianshuliu1721.github.io/publication/middleware23/">
@@ -230,8 +230,8 @@
   
   <meta property="og:site_name" content="Jianshu Liu at LSU">
   <meta property="og:url" content="https://jianshuliu1721.github.io/publication/middleware23/">
-  <meta property="og:title" content="Sora: A Latency Sensitive Approach for Microservice Soft Resource Adaption | Jianshu Liu at LSU">
-  <meta property="og:description" content=""><meta property="og:image" content="img/map[gravatar:%!s(bool=false) shape:circle]">
+  <meta property="og:title" content="Sora: A Latency Sensitive Approach for Microservice Soft Resource Adaptation | Jianshu Liu at LSU">
+  <meta property="og:description" content="Fast response time for modern web services that include numerous distributed and lightweight microservices becomes increasingly important due to its business impact. While hardware-only resource scaling approaches (e.g., FIRM [47] and PARSLO [40]) have been proposed to mitigate response time fluctuations on critical microservices, the re-adaptation of soft resources (e.g., threads or connections) that control the concurrency of hardware resource usage has been largely ignored. This paper shows that the soft resource adaptation of critical microservices has a significant impact on system scalability because either under- or over-allocation of soft resources can lead to inefficient usage of underlying hardware resources. We present Sora, an intelligent, fast soft resource adaptation management framework for quickly identifying and adjusting the optimal concurrency level of critical microservices to mitigate service-level objective (SLO) violations. Sora leverages online finegrained system metrics and the propagated deadline along the critical path of request execution to quickly and accurately provide optimal concurrency setting for critical microservices. Based on six real-world bursty workload traces and two representative microservices benchmarks (Sock Shop and Social Network), our experimental results show that Sora can effectively mitigate large response time fluctuations and reduce the 99th percentile latency by up to 2.5× compared to the hardware-only scaling strategy FIRM [47] and 1.5× to the state-of-the-art concurrency-aware system scaling strategy ConScale."><meta property="og:image" content="img/map[gravatar:%!s(bool=false) shape:circle]">
   <meta property="twitter:image" content="img/map[gravatar:%!s(bool=false) shape:circle]"><meta property="og:locale" content="en-us">
   
     
@@ -261,7 +261,7 @@
     "@type": "WebPage",
     "@id": "https://jianshuliu1721.github.io/publication/middleware23/"
   },
-  "headline": "Sora: A Latency Sensitive Approach for Microservice Soft Resource Adaption",
+  "headline": "Sora: A Latency Sensitive Approach for Microservice Soft Resource Adaptation",
   
   "datePublished": "2023-02-08T22:31:07-05:00",
   "dateModified": "2023-02-24T22:31:07-05:00",
@@ -279,7 +279,7 @@
       "url": "https://jianshuliu1721.github.io/images/icon_hucff3a243dfd9168e751fa0ff5fc0aa39_4129_192x192_fill_lanczos_center_2.png"
     }
   },
-  "description": ""
+  "description": "Fast response time for modern web services that include numerous distributed and lightweight microservices becomes increasingly important due to its business impact. While hardware-only resource scaling approaches (e.g., FIRM [47] and PARSLO [40]) have been proposed to mitigate response time fluctuations on critical microservices, the re-adaptation of soft resources (e.g., threads or connections) that control the concurrency of hardware resource usage has been largely ignored. This paper shows that the soft resource adaptation of critical microservices has a significant impact on system scalability because either under- or over-allocation of soft resources can lead to inefficient usage of underlying hardware resources. We present Sora, an intelligent, fast soft resource adaptation management framework for quickly identifying and adjusting the optimal concurrency level of critical microservices to mitigate service-level objective (SLO) violations. Sora leverages online finegrained system metrics and the propagated deadline along the critical path of request execution to quickly and accurately provide optimal concurrency setting for critical microservices. Based on six real-world bursty workload traces and two representative microservices benchmarks (Sock Shop and Social Network), our experimental results show that Sora can effectively mitigate large response time fluctuations and reduce the 99th percentile latency by up to 2.5× compared to the hardware-only scaling strategy FIRM [47] and 1.5× to the state-of-the-art concurrency-aware system scaling strategy ConScale."
 }
 </script>
 
@@ -297,7 +297,7 @@
 
 
 
-  <title>Sora: A Latency Sensitive Approach for Microservice Soft Resource Adaption | Jianshu Liu at LSU</title>
+  <title>Sora: A Latency Sensitive Approach for Microservice Soft Resource Adaptation | Jianshu Liu at LSU</title>
 
 </head>
 
@@ -588,7 +588,7 @@
   
   
 <div class="article-container pt-3">
-  <h1>Sora: A Latency Sensitive Approach for Microservice Soft Resource Adaption</h1>
+  <h1>Sora: A Latency Sensitive Approach for Microservice Soft Resource Adaptation</h1>
 
   
 
@@ -660,6 +660,9 @@
   <div class="article-container">
 
     
+    <h3>Abstract</h3>
+    <p class="pub-abstract">Fast response time for modern web services that include numerous distributed and lightweight microservices becomes increasingly important due to its business impact. While hardware-only resource scaling approaches (e.g., FIRM [47] and PARSLO [40]) have been proposed to mitigate response time fluctuations on critical microservices, the re-adaptation of soft resources (e.g., threads or connections) that control the concurrency of hardware resource usage has been largely ignored. This paper shows that the soft resource adaptation of critical microservices has a significant impact on system scalability because either under- or over-allocation of soft resources can lead to inefficient usage of underlying hardware resources. We present Sora, an intelligent, fast soft resource adaptation management framework for quickly identifying and adjusting the optimal concurrency level of critical microservices to mitigate service-level objective (SLO) violations. Sora leverages online finegrained system metrics and the propagated deadline along the critical path of request execution to quickly and accurately provide optimal concurrency setting for critical microservices. Based on six real-world bursty workload traces and two representative microservices benchmarks (Sock Shop and Social Network), our experimental results show that Sora can effectively mitigate large response time fluctuations and reduce the 99th percentile latency by up to 2.5× compared to the hardware-only scaling strategy FIRM [47] and 1.5× to the state-of-the-art concurrency-aware system scaling strategy ConScale.</p>
+    
 
     
     <div class="row">
@@ -719,7 +722,7 @@
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=https://jianshuliu1721.github.io/publication/middleware23/&amp;text=Sora:%20A%20Latency%20Sensitive%20Approach%20for%20Microservice%20Soft%20Resource%20Adaption" target="_blank" rel="noopener" class="share-btn-twitter">
+        <a href="https://twitter.com/intent/tweet?url=https://jianshuliu1721.github.io/publication/middleware23/&amp;text=Sora:%20A%20Latency%20Sensitive%20Approach%20for%20Microservice%20Soft%20Resource%20Adaptation" target="_blank" rel="noopener" class="share-btn-twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -732,7 +735,7 @@
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=https://jianshuliu1721.github.io/publication/middleware23/&amp;t=Sora:%20A%20Latency%20Sensitive%20Approach%20for%20Microservice%20Soft%20Resource%20Adaption" target="_blank" rel="noopener" class="share-btn-facebook">
+        <a href="https://www.facebook.com/sharer.php?u=https://jianshuliu1721.github.io/publication/middleware23/&amp;t=Sora:%20A%20Latency%20Sensitive%20Approach%20for%20Microservice%20Soft%20Resource%20Adaptation" target="_blank" rel="noopener" class="share-btn-facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -745,7 +748,7 @@
       
       
       <li>
-        <a href="mailto:?subject=Sora:%20A%20Latency%20Sensitive%20Approach%20for%20Microservice%20Soft%20Resource%20Adaption&amp;body=https://jianshuliu1721.github.io/publication/middleware23/" target="_blank" rel="noopener" class="share-btn-email">
+        <a href="mailto:?subject=Sora:%20A%20Latency%20Sensitive%20Approach%20for%20Microservice%20Soft%20Resource%20Adaptation&amp;body=https://jianshuliu1721.github.io/publication/middleware23/" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -758,7 +761,7 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=https://jianshuliu1721.github.io/publication/middleware23/&amp;title=Sora:%20A%20Latency%20Sensitive%20Approach%20for%20Microservice%20Soft%20Resource%20Adaption" target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?url=https://jianshuliu1721.github.io/publication/middleware23/&amp;title=Sora:%20A%20Latency%20Sensitive%20Approach%20for%20Microservice%20Soft%20Resource%20Adaptation" target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -771,7 +774,7 @@
       
       
       <li>
-        <a href="https://web.whatsapp.com/send?text=Sora:%20A%20Latency%20Sensitive%20Approach%20for%20Microservice%20Soft%20Resource%20Adaption%20https://jianshuliu1721.github.io/publication/middleware23/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+        <a href="https://web.whatsapp.com/send?text=Sora:%20A%20Latency%20Sensitive%20Approach%20for%20Microservice%20Soft%20Resource%20Adaptation%20https://jianshuliu1721.github.io/publication/middleware23/" target="_blank" rel="noopener" class="share-btn-whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -784,7 +787,7 @@
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=https://jianshuliu1721.github.io/publication/middleware23/&amp;title=Sora:%20A%20Latency%20Sensitive%20Approach%20for%20Microservice%20Soft%20Resource%20Adaption" target="_blank" rel="noopener" class="share-btn-weibo">
+        <a href="https://service.weibo.com/share/share.php?url=https://jianshuliu1721.github.io/publication/middleware23/&amp;title=Sora:%20A%20Latency%20Sensitive%20Approach%20for%20Microservice%20Soft%20Resource%20Adaptation" target="_blank" rel="noopener" class="share-btn-weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>

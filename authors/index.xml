@@ -79,7 +79,7 @@
     <item>
       <title>and Jinpeng Wei</title>
       <link>https://jianshuliu1721.github.io/authors/and-jinpeng-wei/</link>
-      <pubDate>Fri, 22 Apr 2022 11:12:16 -0600</pubDate>
+      <pubDate>Mon, 14 Feb 2022 22:15:16 -0600</pubDate>
       <guid>https://jianshuliu1721.github.io/authors/and-jinpeng-wei/</guid>
       <description></description>
     </item>
@@ -137,10 +137,17 @@
       <link>https://jianshuliu1721.github.io/authors/admin/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://jianshuliu1721.github.io/authors/admin/</guid>
-      <description>&lt;p&gt;I am a graduate student pursing Ph.D. degree in Division of Computer Science and Engineering at Louisiana State University, Baton Rouge. I am working in 
+      <description>&lt;p&gt;I am a Ph.D. candidate pursing Ph.D. degree in Division of Computer Science and Engineering at Louisiana State University, Baton Rouge. I am working in 
 &lt;a href=&#34;http://csc.lsu.edu/~qywang/ProjectWebsite/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;LSU Cloud Computing Lab&lt;/a&gt; as a research assistant under 
 &lt;a href=&#34;http://csc.lsu.edu/~qywang/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dr. Qingyang Wang&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;My interest lies in performance and scalability analysis of modern large-scale cloud applications, with the aim of achieving highly responsive systems running at high utilization in cloud. My research focuses on automated measurements and analysis of microservices-based systems and IoT stream processing systems and improving system performance by adaptively tuning multiplex resource allocation.&lt;/p&gt;
+&lt;p&gt;My interest lies in performance and scalability analysis of large-scale web applications and IoT stream processing systems, with the aim of achieving highly responsive systems running at high utilization in cloud. My research relies on timeline analysis with fine-grained monitoring metrics to investigate various factors that cause the performance variations of cloud systems, and improve system performance by adaptively tuning multiplex resources allocation via novel statistical or ML (e.g., reinforcement learning) approaches.&lt;/p&gt;
+&lt;p&gt;My collaborators are from 
+&lt;a href=&#34;https://www.augusta.edu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Augusta University&lt;/a&gt;, 
+&lt;a href=&#34;https://gatech.edu&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Georgia Institute of Technology&lt;/a&gt;, 
+&lt;a href=&#34;https://www.fujitsu.com/global/about/research/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Fujitsu Laboratories Ltd&lt;/a&gt;, etc. I am working as a summer research intern at the 
+&lt;a href=&#34;https://www.uchicago.edu/en&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;University of Chicago&lt;/a&gt;, specifically in the 
+&lt;a href=&#34;https://labs.globus.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Globus Lab&lt;/a&gt; under the guidance of 
+&lt;a href=&#34;https://kylechard.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dr. Kyle Chard&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
