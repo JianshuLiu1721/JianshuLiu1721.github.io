@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Julius Michaelis | Jianshu Liu at LSU</title>
+    <link>https://jianshuliu1721.github.io/authors/julius-michaelis/</link>
+      <atom:link href="https://jianshuliu1721.github.io/authors/julius-michaelis/index.xml" rel="self" type="application/rss+xml" />
+    <description>Julius Michaelis</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © 2023 Jianshu Liu</copyright><lastBuildDate>Tue, 08 Nov 2022 22:31:07 -0500</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>Julius Michaelis</title>
+      <link>https://jianshuliu1721.github.io/authors/julius-michaelis/</link>
+    </image>
+    
+    <item>
+      <title>ShadowSync: Latency Long Tail caused by Hidden Synchronization in Real-time LSM-tree based Stream Processing Systems</title>
+      <link>https://jianshuliu1721.github.io/publication/middleware22/</link>
+      <pubDate>Tue, 08 Nov 2022 22:31:07 -0500</pubDate>
+      <guid>https://jianshuliu1721.github.io/publication/middleware22/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

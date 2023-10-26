@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Publications | Jianshu Liu at LSU</title>
+    <link>https://jianshuliu1721.github.io/publication/</link>
+      <atom:link href="https://jianshuliu1721.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
+    <description>Publications</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © 2023 Jianshu Liu</copyright><lastBuildDate>Thu, 05 Oct 2023 22:31:07 -0500</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>Publications</title>
+      <link>https://jianshuliu1721.github.io/publication/</link>
+    </image>
+    
+    <item>
+      <title>μConAdapter: Reinforcement Learning-based Fast Concurrency Adaptation for Microservices in Cloud</title>
+      <link>https://jianshuliu1721.github.io/publication/socc23/</link>
+      <pubDate>Thu, 05 Oct 2023 22:31:07 -0500</pubDate>
+      <guid>https://jianshuliu1721.github.io/publication/socc23/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A BlackBox Approach to Profile Runtime Execution Dependencies in Microservices</title>
+      <link>https://jianshuliu1721.github.io/publication/cic23/</link>
+      <pubDate>Fri, 29 Sep 2023 22:31:07 -0500</pubDate>
+      <guid>https://jianshuliu1721.github.io/publication/cic23/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sora: A Latency Sensitive Approach for Microservice Soft Resource Adaptation</title>
+      <link>https://jianshuliu1721.github.io/publication/middleware23/</link>
+      <pubDate>Mon, 06 Feb 2023 22:31:07 -0500</pubDate>
+      <guid>https://jianshuliu1721.github.io/publication/middleware23/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ShadowSync: Latency Long Tail caused by Hidden Synchronization in Real-time LSM-tree based Stream Processing Systems</title>
+      <link>https://jianshuliu1721.github.io/publication/middleware22/</link>
+      <pubDate>Tue, 08 Nov 2022 22:31:07 -0500</pubDate>
+      <guid>https://jianshuliu1721.github.io/publication/middleware22/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Coordinating Fast Concurrency Adapting with Autoscaling for SLO-Oriented Web Applications</title>
+      <link>https://jianshuliu1721.github.io/publication/tpds22/</link>
+      <pubDate>Mon, 14 Feb 2022 22:15:16 -0600</pubDate>
+      <guid>https://jianshuliu1721.github.io/publication/tpds22/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Functional Model and Analysis of Next Generation Malware Attacks and Defenses</title>
+      <link>https://jianshuliu1721.github.io/publication/tps-isa21/</link>
+      <pubDate>Mon, 13 Dec 2021 22:31:07 -0500</pubDate>
+      <guid>https://jianshuliu1721.github.io/publication/tps-isa21/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DoubleFaceAD:A New Datastore Drive Architecture to Optimize Fanout Query Performance</title>
+      <link>https://jianshuliu1721.github.io/publication/middleware20/</link>
+      <pubDate>Tue, 01 Sep 2020 22:31:07 -0500</pubDate>
+      <guid>https://jianshuliu1721.github.io/publication/middleware20/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mitigating Large Response Time Fluctuations through Fast Concurrency Adapting in Clouds</title>
+      <link>https://jianshuliu1721.github.io/publication/ipdps20/</link>
+      <pubDate>Fri, 15 May 2020 20:26:16 -0600</pubDate>
+      <guid>https://jianshuliu1721.github.io/publication/ipdps20/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tail Amplification in n-Tier Systems: A Study of Transient Cross-Resource Contention Attacks</title>
+      <link>https://jianshuliu1721.github.io/publication/icdcs19/</link>
+      <pubDate>Wed, 10 Jul 2019 21:38:19 -0600</pubDate>
+      <guid>https://jianshuliu1721.github.io/publication/icdcs19/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
