@@ -28,10 +28,11 @@
   
     
   
-  <meta name="description" content="Fast response time for modern web services that include numerous distributed and lightweight microservices becomes increasingly important due to its business impact. While hardware-only resource scaling approaches (e.g., FIRM [47] and PARSLO [40]) have been proposed to mitigate response time fluctuations on critical microservices, the re-adaptation of soft resources (e.g., threads or connections) that control the concurrency of hardware resource usage has been largely ignored. This paper shows that the soft resource adaptation of critical microservices has a significant impact on system scalability because either under- or over-allocation of soft resources can lead to inefficient usage of underlying hardware resources. We present Sora, an intelligent, fast soft resource adaptation management framework for quickly identifying and adjusting the optimal concurrency level of critical microservices to mitigate service-level objective (SLO) violations. Sora leverages online finegrained system metrics and the propagated deadline along the critical path of request execution to quickly and accurately provide optimal concurrency setting for critical microservices. Based on six real-world bursty workload traces and two representative microservices benchmarks (Sock Shop and Social Network), our experimental results show that Sora can effectively mitigate large response time fluctuations and reduce the 99th percentile latency by up to 2.5× compared to the hardware-only scaling strategy FIRM [47] and 1.5× to the state-of-the-art concurrency-aware system scaling strategy ConScale.">
+  <meta name="description" content="The modern web services landscape is characterized by numerous fine-grained, loosely coupled microservices with increasingly stringent low-latency requirements. However, this architecture also brings new performance vulnerabilities. In this paper, we introduce a novel low-volume application layer DDoS attack called the Sync-Millibottleneck (SyncM) attack, specifically targeting microservices. The goal of this attack is to cause a long-tail latency problem that violates the service-level agreement (SLA) for e-commerce while evading state-of-the-art DDoS detection/defense mechanisms. The SyncM attack exploits two unique features of microservices architecture: (1) the shared frontend gateway that directs user requests to mid-tier/backend microservices, and (2) the co-existence of multiple logically independent execution paths, each with its own bottleneck resource. By creating synchronized millibottlenecks (i.e., sub-second duration bottlenecks) on multiple independent execution paths, SyncM attack can cause the queuing effect in each execution path to be propagated along the path and superimposed in the shared frontend gateway microservice. As a result, SyncM triggers surprisingly high latency spikes in the system, even when all system resources are far from saturation, making it challenging to trace the cause of performance instability.
+To evaluate the practicality of our attack, we conduct extensive experiments on real cloud systems such as EC2 and Azure, which are equipped with state-of-the-art IDS/IPS systems, under various workload scenarios. We also conduct a large-scale simulation using a production Alibaba trace to show the scalability of our attack. Our results demonstrate that the SyncM attack is highly effective, as it only consumes less than 15% of additional CPU resources of the target system while increasing its 95th percentile response time by more than 20 times.">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://jianshuliu1721.github.io/publication/middleware23/">
+  <link rel="alternate" hreflang="en-us" href="https://jianshuliu1721.github.io/publication/asiaccs24/">
 
   
 
@@ -215,7 +216,7 @@
   <link rel="icon" type="image/png" href="/images/icon_hucff3a243dfd9168e751fa0ff5fc0aa39_4129_32x32_fill_lanczos_center_2.png">
   <link rel="apple-touch-icon" type="image/png" href="/images/icon_hucff3a243dfd9168e751fa0ff5fc0aa39_4129_192x192_fill_lanczos_center_2.png">
 
-  <link rel="canonical" href="https://jianshuliu1721.github.io/publication/middleware23/">
+  <link rel="canonical" href="https://jianshuliu1721.github.io/publication/asiaccs24/">
 
   
   
@@ -229,15 +230,16 @@
   <meta property="twitter:card" content="summary">
   
   <meta property="og:site_name" content="Jianshu Liu at LSU">
-  <meta property="og:url" content="https://jianshuliu1721.github.io/publication/middleware23/">
-  <meta property="og:title" content="Sora: A Latency Sensitive Approach for Microservice Soft Resource Adaptation | Jianshu Liu at LSU">
-  <meta property="og:description" content="Fast response time for modern web services that include numerous distributed and lightweight microservices becomes increasingly important due to its business impact. While hardware-only resource scaling approaches (e.g., FIRM [47] and PARSLO [40]) have been proposed to mitigate response time fluctuations on critical microservices, the re-adaptation of soft resources (e.g., threads or connections) that control the concurrency of hardware resource usage has been largely ignored. This paper shows that the soft resource adaptation of critical microservices has a significant impact on system scalability because either under- or over-allocation of soft resources can lead to inefficient usage of underlying hardware resources. We present Sora, an intelligent, fast soft resource adaptation management framework for quickly identifying and adjusting the optimal concurrency level of critical microservices to mitigate service-level objective (SLO) violations. Sora leverages online finegrained system metrics and the propagated deadline along the critical path of request execution to quickly and accurately provide optimal concurrency setting for critical microservices. Based on six real-world bursty workload traces and two representative microservices benchmarks (Sock Shop and Social Network), our experimental results show that Sora can effectively mitigate large response time fluctuations and reduce the 99th percentile latency by up to 2.5× compared to the hardware-only scaling strategy FIRM [47] and 1.5× to the state-of-the-art concurrency-aware system scaling strategy ConScale."><meta property="og:image" content="img/map[gravatar:%!s(bool=false) shape:circle]">
+  <meta property="og:url" content="https://jianshuliu1721.github.io/publication/asiaccs24/">
+  <meta property="og:title" content="Sync-Millibottleneck Attack on Microservices Cloud Architecture | Jianshu Liu at LSU">
+  <meta property="og:description" content="The modern web services landscape is characterized by numerous fine-grained, loosely coupled microservices with increasingly stringent low-latency requirements. However, this architecture also brings new performance vulnerabilities. In this paper, we introduce a novel low-volume application layer DDoS attack called the Sync-Millibottleneck (SyncM) attack, specifically targeting microservices. The goal of this attack is to cause a long-tail latency problem that violates the service-level agreement (SLA) for e-commerce while evading state-of-the-art DDoS detection/defense mechanisms. The SyncM attack exploits two unique features of microservices architecture: (1) the shared frontend gateway that directs user requests to mid-tier/backend microservices, and (2) the co-existence of multiple logically independent execution paths, each with its own bottleneck resource. By creating synchronized millibottlenecks (i.e., sub-second duration bottlenecks) on multiple independent execution paths, SyncM attack can cause the queuing effect in each execution path to be propagated along the path and superimposed in the shared frontend gateway microservice. As a result, SyncM triggers surprisingly high latency spikes in the system, even when all system resources are far from saturation, making it challenging to trace the cause of performance instability.
+To evaluate the practicality of our attack, we conduct extensive experiments on real cloud systems such as EC2 and Azure, which are equipped with state-of-the-art IDS/IPS systems, under various workload scenarios. We also conduct a large-scale simulation using a production Alibaba trace to show the scalability of our attack. Our results demonstrate that the SyncM attack is highly effective, as it only consumes less than 15% of additional CPU resources of the target system while increasing its 95th percentile response time by more than 20 times."><meta property="og:image" content="img/map[gravatar:%!s(bool=false) shape:circle]">
   <meta property="twitter:image" content="img/map[gravatar:%!s(bool=false) shape:circle]"><meta property="og:locale" content="en-us">
   
     
-      <meta property="article:published_time" content="2023-02-08T22:31:07-05:00">
+      <meta property="article:published_time" content="2023-10-05T22:31:07-05:00">
     
-    <meta property="article:modified_time" content="2023-02-06T22:31:07-05:00">
+    <meta property="article:modified_time" content="2023-12-15T22:31:07-05:00">
   
 
   
@@ -259,16 +261,16 @@
   "@type": "Article",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://jianshuliu1721.github.io/publication/middleware23/"
+    "@id": "https://jianshuliu1721.github.io/publication/asiaccs24/"
   },
-  "headline": "Sora: A Latency Sensitive Approach for Microservice Soft Resource Adaptation",
+  "headline": "Sync-Millibottleneck Attack on Microservices Cloud Architecture",
   
-  "datePublished": "2023-02-08T22:31:07-05:00",
-  "dateModified": "2023-02-06T22:31:07-05:00",
+  "datePublished": "2023-10-05T22:31:07-05:00",
+  "dateModified": "2023-12-15T22:31:07-05:00",
   
   "author": {
     "@type": "Person",
-    "name": "__Jianshu Liu__"
+    "name": "Xuhang Gu"
   },
   
   "publisher": {
@@ -279,7 +281,7 @@
       "url": "https://jianshuliu1721.github.io/images/icon_hucff3a243dfd9168e751fa0ff5fc0aa39_4129_192x192_fill_lanczos_center_2.png"
     }
   },
-  "description": "Fast response time for modern web services that include numerous distributed and lightweight microservices becomes increasingly important due to its business impact. While hardware-only resource scaling approaches (e.g., FIRM [47] and PARSLO [40]) have been proposed to mitigate response time fluctuations on critical microservices, the re-adaptation of soft resources (e.g., threads or connections) that control the concurrency of hardware resource usage has been largely ignored. This paper shows that the soft resource adaptation of critical microservices has a significant impact on system scalability because either under- or over-allocation of soft resources can lead to inefficient usage of underlying hardware resources. We present Sora, an intelligent, fast soft resource adaptation management framework for quickly identifying and adjusting the optimal concurrency level of critical microservices to mitigate service-level objective (SLO) violations. Sora leverages online finegrained system metrics and the propagated deadline along the critical path of request execution to quickly and accurately provide optimal concurrency setting for critical microservices. Based on six real-world bursty workload traces and two representative microservices benchmarks (Sock Shop and Social Network), our experimental results show that Sora can effectively mitigate large response time fluctuations and reduce the 99th percentile latency by up to 2.5× compared to the hardware-only scaling strategy FIRM [47] and 1.5× to the state-of-the-art concurrency-aware system scaling strategy ConScale."
+  "description": "The modern web services landscape is characterized by numerous fine-grained, loosely coupled microservices with increasingly stringent low-latency requirements. However, this architecture also brings new performance vulnerabilities. In this paper, we introduce a novel low-volume application layer DDoS attack called the Sync-Millibottleneck (SyncM) attack, specifically targeting microservices. The goal of this attack is to cause a long-tail latency problem that violates the service-level agreement (SLA) for e-commerce while evading state-of-the-art DDoS detection/defense mechanisms. The SyncM attack exploits two unique features of microservices architecture: (1) the shared frontend gateway that directs user requests to mid-tier/backend microservices, and (2) the co-existence of multiple logically independent execution paths, each with its own bottleneck resource. By creating synchronized millibottlenecks (i.e., sub-second duration bottlenecks) on multiple independent execution paths, SyncM attack can cause the queuing effect in each execution path to be propagated along the path and superimposed in the shared frontend gateway microservice. As a result, SyncM triggers surprisingly high latency spikes in the system, even when all system resources are far from saturation, making it challenging to trace the cause of performance instability.\nTo evaluate the practicality of our attack, we conduct extensive experiments on real cloud systems such as EC2 and Azure, which are equipped with state-of-the-art IDS/IPS systems, under various workload scenarios. We also conduct a large-scale simulation using a production Alibaba trace to show the scalability of our attack. Our results demonstrate that the SyncM attack is highly effective, as it only consumes less than 15% of additional CPU resources of the target system while increasing its 95th percentile response time by more than 20 times."
 }
 </script>
 
@@ -297,7 +299,7 @@
 
 
 
-  <title>Sora: A Latency Sensitive Approach for Microservice Soft Resource Adaptation | Jianshu Liu at LSU</title>
+  <title>Sync-Millibottleneck Attack on Microservices Cloud Architecture | Jianshu Liu at LSU</title>
 
 </head>
 
@@ -588,7 +590,7 @@
   
   
 <div class="article-container pt-3">
-  <h1>Sora: A Latency Sensitive Approach for Microservice Soft Resource Adaptation</h1>
+  <h1>Sync-Millibottleneck Attack on Microservices Cloud Architecture</h1>
 
   
 
@@ -608,7 +610,7 @@
 
 
   
-  <span><a href="/authors/__jianshu-liu__/"><strong>Jianshu Liu</strong></a></span>, <span><a href="/authors/qingyang-wang/">Qingyang Wang</a></span>, <span><a href="/authors/shungeng-zhang/">Shungeng Zhang</a></span>, <span><a href="/authors/liting-hu/">Liting Hu</a></span>, <span><a href="/authors/and-dilma-da-silva/">and Dilma Da Silva</a></span>
+  <span><a href="/authors/xuhang-gu/">Xuhang Gu</a></span>, <span><a href="/authors/qingyang-wang/">Qingyang Wang</a></span>, <span><a href="/authors/qiben-yan/">Qiben Yan</a></span>, <span><a href="/authors/__jianshu-liu__/"><strong>Jianshu Liu</strong></a></span>, <span><a href="/authors/calton-pu/">Calton Pu</a></span>
 
   </div>
   
@@ -620,7 +622,7 @@
     
       
     
-    February 2023
+    December 2023
   </span>
   
 
@@ -646,60 +648,10 @@
 
 
 
-  
 
 
 
 
-  
-
-
-
-<div class="btn-links mb-3">
-  
-  
-
-
-
-
-
-
-
-
-  
-
-
-
-<a class="btn btn-outline-primary my-1 mr-1" href="/publication/middleware23/Middleware23.pdf" target="_blank" rel="noopener">
-  PDF
-</a>
-
-
-
-<button type="button" class="btn btn-outline-primary my-1 mr-1 js-cite-modal"
-        data-filename="/publication/middleware23/cite.bib">
-  Cite
-</button>
-
-
-
-
-
-
-
-
-
-
-
-
-
-<a class="btn btn-outline-primary my-1 mr-1" href="https://doi.org/10.1145/3590140.3592851" target="_blank" rel="noopener">
-  DOI
-</a>
-
-
-
-</div>
 
 
   
@@ -711,7 +663,8 @@
 
     
     <h3>Abstract</h3>
-    <p class="pub-abstract">Fast response time for modern web services that include numerous distributed and lightweight microservices becomes increasingly important due to its business impact. While hardware-only resource scaling approaches (e.g., FIRM [47] and PARSLO [40]) have been proposed to mitigate response time fluctuations on critical microservices, the re-adaptation of soft resources (e.g., threads or connections) that control the concurrency of hardware resource usage has been largely ignored. This paper shows that the soft resource adaptation of critical microservices has a significant impact on system scalability because either under- or over-allocation of soft resources can lead to inefficient usage of underlying hardware resources. We present Sora, an intelligent, fast soft resource adaptation management framework for quickly identifying and adjusting the optimal concurrency level of critical microservices to mitigate service-level objective (SLO) violations. Sora leverages online finegrained system metrics and the propagated deadline along the critical path of request execution to quickly and accurately provide optimal concurrency setting for critical microservices. Based on six real-world bursty workload traces and two representative microservices benchmarks (Sock Shop and Social Network), our experimental results show that Sora can effectively mitigate large response time fluctuations and reduce the 99th percentile latency by up to 2.5× compared to the hardware-only scaling strategy FIRM [47] and 1.5× to the state-of-the-art concurrency-aware system scaling strategy ConScale.</p>
+    <p class="pub-abstract">The modern web services landscape is characterized by numerous fine-grained, loosely coupled microservices with increasingly stringent low-latency requirements. However, this architecture also brings new performance vulnerabilities. In this paper, we introduce a novel low-volume application layer DDoS attack called the Sync-Millibottleneck (SyncM) attack, specifically targeting microservices. The goal of this attack is to cause a long-tail latency problem that violates the service-level agreement (SLA) for e-commerce while evading state-of-the-art DDoS detection/defense mechanisms. The SyncM attack exploits two unique features of microservices architecture: (1) the shared frontend gateway that directs user requests to mid-tier/backend microservices, and (2) the co-existence of multiple logically independent execution paths, each with its own bottleneck resource. By creating synchronized millibottlenecks (i.e., sub-second duration bottlenecks) on multiple independent execution paths, SyncM attack can cause the queuing effect in each execution path to be propagated along the path and superimposed in the shared frontend gateway microservice. As a result, SyncM triggers surprisingly high latency spikes in the system, even when all system resources are far from saturation, making it challenging to trace the cause of performance instability.
+To evaluate the practicality of our attack, we conduct extensive experiments on real cloud systems such as EC2 and Azure, which are equipped with state-of-the-art IDS/IPS systems, under various workload scenarios. We also conduct a large-scale simulation using a production Alibaba trace to show the scalability of our attack. Our results demonstrate that the SyncM attack is highly effective, as it only consumes less than 15% of additional CPU resources of the target system while increasing its 95th percentile response time by more than 20 times.</p>
     
 
     
@@ -741,7 +694,7 @@
       <div class="col-md-10">
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">Publication</div>
-          <div class="col-12 col-md-9">In <em>Proceedings of the 24th ACM/IFIP International Middleware Conference</em> <strong>(Middleware&rsquo;23)</strong> <br /> 🏆 Best Paper Award</div>
+          <div class="col-12 col-md-9">To appear in <em>Proceedings of the 19th ACM ASIA Conference on Computer and Communications Security</em> <strong>(AsiaCCS&rsquo;24)</strong></div>
         </div>
       </div>
       <div class="col-md-1"></div>
@@ -772,7 +725,7 @@
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=https://jianshuliu1721.github.io/publication/middleware23/&amp;text=Sora:%20A%20Latency%20Sensitive%20Approach%20for%20Microservice%20Soft%20Resource%20Adaptation" target="_blank" rel="noopener" class="share-btn-twitter">
+        <a href="https://twitter.com/intent/tweet?url=https://jianshuliu1721.github.io/publication/asiaccs24/&amp;text=Sync-Millibottleneck%20Attack%20on%20Microservices%20Cloud%20Architecture" target="_blank" rel="noopener" class="share-btn-twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -785,7 +738,7 @@
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=https://jianshuliu1721.github.io/publication/middleware23/&amp;t=Sora:%20A%20Latency%20Sensitive%20Approach%20for%20Microservice%20Soft%20Resource%20Adaptation" target="_blank" rel="noopener" class="share-btn-facebook">
+        <a href="https://www.facebook.com/sharer.php?u=https://jianshuliu1721.github.io/publication/asiaccs24/&amp;t=Sync-Millibottleneck%20Attack%20on%20Microservices%20Cloud%20Architecture" target="_blank" rel="noopener" class="share-btn-facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -798,7 +751,7 @@
       
       
       <li>
-        <a href="mailto:?subject=Sora:%20A%20Latency%20Sensitive%20Approach%20for%20Microservice%20Soft%20Resource%20Adaptation&amp;body=https://jianshuliu1721.github.io/publication/middleware23/" target="_blank" rel="noopener" class="share-btn-email">
+        <a href="mailto:?subject=Sync-Millibottleneck%20Attack%20on%20Microservices%20Cloud%20Architecture&amp;body=https://jianshuliu1721.github.io/publication/asiaccs24/" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -811,7 +764,7 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=https://jianshuliu1721.github.io/publication/middleware23/&amp;title=Sora:%20A%20Latency%20Sensitive%20Approach%20for%20Microservice%20Soft%20Resource%20Adaptation" target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?url=https://jianshuliu1721.github.io/publication/asiaccs24/&amp;title=Sync-Millibottleneck%20Attack%20on%20Microservices%20Cloud%20Architecture" target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -824,7 +777,7 @@
       
       
       <li>
-        <a href="https://web.whatsapp.com/send?text=Sora:%20A%20Latency%20Sensitive%20Approach%20for%20Microservice%20Soft%20Resource%20Adaptation%20https://jianshuliu1721.github.io/publication/middleware23/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+        <a href="https://web.whatsapp.com/send?text=Sync-Millibottleneck%20Attack%20on%20Microservices%20Cloud%20Architecture%20https://jianshuliu1721.github.io/publication/asiaccs24/" target="_blank" rel="noopener" class="share-btn-whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -837,7 +790,7 @@
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=https://jianshuliu1721.github.io/publication/middleware23/&amp;title=Sora:%20A%20Latency%20Sensitive%20Approach%20for%20Microservice%20Soft%20Resource%20Adaptation" target="_blank" rel="noopener" class="share-btn-weibo">
+        <a href="https://service.weibo.com/share/share.php?url=https://jianshuliu1721.github.io/publication/asiaccs24/&amp;title=Sync-Millibottleneck%20Attack%20on%20Microservices%20Cloud%20Architecture" target="_blank" rel="noopener" class="share-btn-weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
@@ -876,7 +829,7 @@
     
 
     <div class="media-body">
-      <h5 class="card-title"><a href="/authors/__jianshu-liu__/"></a></h5>
+      <h5 class="card-title"><a href="/authors/xuhang-gu/"></a></h5>
       
       
       <ul class="network-icon" aria-hidden="true">
