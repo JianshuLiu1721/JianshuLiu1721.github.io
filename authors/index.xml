@@ -5,7 +5,7 @@
     <link>https://jianshuliu1721.github.io/authors/</link>
       <atom:link href="https://jianshuliu1721.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © 2023 Jianshu Liu</copyright><lastBuildDate>Fri, 15 Dec 2023 22:31:07 -0500</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © 2024 Jianshu Liu</copyright><lastBuildDate>Fri, 15 Dec 2023 22:31:07 -0500</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>Authors</title>
@@ -137,10 +137,13 @@
       <link>https://jianshuliu1721.github.io/authors/admin/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://jianshuliu1721.github.io/authors/admin/</guid>
-      <description>&lt;p&gt;I am a Ph.D. candidate pursing Ph.D. degree in Division of Computer Science and Engineering at Louisiana State University, Baton Rouge. I am working in 
-&lt;a href=&#34;http://csc.lsu.edu/~qywang/ProjectWebsite/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;LSU Cloud Computing Lab&lt;/a&gt; as a research assistant under 
-&lt;a href=&#34;http://csc.lsu.edu/~qywang/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dr. Qingyang Wang&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;My interest lies in performance and scalability analysis of large-scale web applications and IoT stream processing systems, with the aim of achieving highly responsive systems running at high utilization in cloud. My research relies on timeline analysis with fine-grained monitoring metrics to investigate various factors that cause the performance variations of cloud systems, and improve system performance by adaptively tuning multiplex resources allocation via novel statistical or ML (e.g., reinforcement learning) approaches.&lt;/p&gt;
+      <description>&lt;p&gt;I am a Ph.D. candidate in Computer Science at Louisiana State University, Baton Rouge, advised by 
+&lt;a href=&#34;http://csc.lsu.edu/~qywang/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dr. Qingyang Wang&lt;/a&gt;. I am working in 
+&lt;a href=&#34;http://csc.lsu.edu/~qywang/ProjectWebsite/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;LSU Cloud Computing Lab&lt;/a&gt; as a research assistant.&lt;/p&gt;
+&lt;p&gt;⭐ &lt;u&gt;Starting Fall 2024, I&amp;rsquo;ll join the 
+&lt;a href=&#34;https://www.boisestate.edu/coen-cs/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Boise State University&lt;/a&gt; as an Assistant Professor of Computer Science, leading the 
+&lt;a href=&#34;&#34;&gt;Pisces Lab&lt;/a&gt;.&lt;/u&gt; 🎉&lt;/p&gt;
+&lt;p&gt;My interest lies in performance and scalability analysis of various cloud systems, with the aim of achieving highly responsive systems running at high utilization in cloud. My research relies on timeline analysis to investigate various factors that cause the performance variations of cloud systems, and design intelligent and automated frameworks to improve system performance.&lt;/p&gt;
 &lt;p&gt;My collaborators are from 
 &lt;a href=&#34;https://www.augusta.edu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Augusta University&lt;/a&gt;, 
 &lt;a href=&#34;https://gatech.edu&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Georgia Institute of Technology&lt;/a&gt;, 
@@ -148,6 +151,7 @@
 &lt;a href=&#34;https://www.uchicago.edu/en&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;University of Chicago&lt;/a&gt;, specifically in the 
 &lt;a href=&#34;https://labs.globus.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Globus Labs&lt;/a&gt; under the guidance of 
 &lt;a href=&#34;https://kylechard.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dr. Kyle Chard&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;To prospective students:&lt;/code&gt; &lt;em&gt;I&amp;rsquo;m always looking for students who have a solid background in computer systems and share my research interests. If you are interested, please e-mail me with your Resume.&lt;/em&gt;&lt;/p&gt;
 </description>
     </item>
     
