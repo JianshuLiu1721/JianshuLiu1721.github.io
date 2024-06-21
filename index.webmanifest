@@ -1,15 +1,15 @@
 {
-  "name": "Jianshu Liu at LSU",
-  "short_name": "Jianshu Liu at LSU",
+  "name": "Jianshu Liu at BSU",
+  "short_name": "Jianshu Liu at BSU",
   "lang": "en-us",
   "theme_color": "#2962ff",
   "background_color": "#2962ff",
   "icons": [{
-    "src": "/images/icon_hucff3a243dfd9168e751fa0ff5fc0aa39_4129_192x192_fill_lanczos_center_2.png",
+    "src": "/images/icon_hu5a64dca07800957cd1e84314126dae08_5057_192x192_fill_lanczos_center_2.png",
     "sizes": "192x192",
     "type": "image/png"
     }, {
-    "src": "/images/icon_hucff3a243dfd9168e751fa0ff5fc0aa39_4129_512x512_fill_lanczos_center_2.png",
+    "src": "/images/icon_hu5a64dca07800957cd1e84314126dae08_5057_512x512_fill_lanczos_center_2.png",
     "sizes": "512x512",
     "type": "image/png"
      }],

@@ -28,10 +28,12 @@
   
     
   
-  <meta name="description" content="Assistant Professor">
+  <meta name="description" content="Loosely-coupled and lightweight microservices running in containers are likely to form complex execution dependencies inside the system. The execution dependency arises when two execution paths partially share component microservices, resulting in potential runtime blocking effects. In this paper, we present the Grunt Attack – a novel low-volume DDoS attack that takes advantage of the execution dependencies of microservice applications. The Grunt Attack utilizes legitimate HTTP requests to accurately profile the internal pairwise dependencies of all supported execution paths in the target system. By grouping and characterizing all the execution paths based on their pairwise dependencies, a Grunt attacker can target only a few execution paths to launch a low-volume DDoS attack that achieves large performance damage to the entire system. To increase the attack stealthiness, the Grunt attacker avoids creating a persistent bottleneck by alternating the target execution paths within their dependency group.
+
+We validate the effectiveness of Grunt attack through experiments of open-source microservices benchmark applications on real clouds (e.g., EC2, Azure) equipped with state-of-the-art IDS/IPS systems and live attack scenarios. Our results show that Grunt attack consumes less than 20% additional CPU resource of the target system while increasing its average response time by over 10x.">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://jianshuliu1721.github.io/authors/huasong-shan/">
+  <link rel="alternate" hreflang="en-us" href="https://jianshuliu1721.github.io/publication/dsn24/">
 
   
 
@@ -210,14 +212,12 @@
 
 
   
-  <link rel="alternate" href="/authors/huasong-shan/index.xml" type="application/rss+xml" title="Jianshu Liu at BSU">
-  
 
   <link rel="manifest" href="/index.webmanifest">
   <link rel="icon" type="image/png" href="/images/icon_hu5a64dca07800957cd1e84314126dae08_5057_32x32_fill_lanczos_center_2.png">
   <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu5a64dca07800957cd1e84314126dae08_5057_192x192_fill_lanczos_center_2.png">
 
-  <link rel="canonical" href="https://jianshuliu1721.github.io/authors/huasong-shan/">
+  <link rel="canonical" href="https://jianshuliu1721.github.io/publication/dsn24/">
 
   
   
@@ -231,18 +231,63 @@
   <meta property="twitter:card" content="summary">
   
   <meta property="og:site_name" content="Jianshu Liu at BSU">
-  <meta property="og:url" content="https://jianshuliu1721.github.io/authors/huasong-shan/">
-  <meta property="og:title" content="Huasong Shan | Jianshu Liu at BSU">
-  <meta property="og:description" content="Assistant Professor"><meta property="og:image" content="img/map[gravatar:%!s(bool=false) shape:circle]">
+  <meta property="og:url" content="https://jianshuliu1721.github.io/publication/dsn24/">
+  <meta property="og:title" content="Grunt Attack: Exploiting Execution Dependencies in Microservices | Jianshu Liu at BSU">
+  <meta property="og:description" content="Loosely-coupled and lightweight microservices running in containers are likely to form complex execution dependencies inside the system. The execution dependency arises when two execution paths partially share component microservices, resulting in potential runtime blocking effects. In this paper, we present the Grunt Attack – a novel low-volume DDoS attack that takes advantage of the execution dependencies of microservice applications. The Grunt Attack utilizes legitimate HTTP requests to accurately profile the internal pairwise dependencies of all supported execution paths in the target system. By grouping and characterizing all the execution paths based on their pairwise dependencies, a Grunt attacker can target only a few execution paths to launch a low-volume DDoS attack that achieves large performance damage to the entire system. To increase the attack stealthiness, the Grunt attacker avoids creating a persistent bottleneck by alternating the target execution paths within their dependency group.
+
+We validate the effectiveness of Grunt attack through experiments of open-source microservices benchmark applications on real clouds (e.g., EC2, Azure) equipped with state-of-the-art IDS/IPS systems and live attack scenarios. Our results show that Grunt attack consumes less than 20% additional CPU resource of the target system while increasing its average response time by over 10x."><meta property="og:image" content="img/map[gravatar:%!s(bool=false) shape:circle]">
   <meta property="twitter:image" content="img/map[gravatar:%!s(bool=false) shape:circle]"><meta property="og:locale" content="en-us">
   
-    <meta property="og:updated_time" content="2019-07-10T21:38:19-06:00">
+    
+      <meta property="article:published_time" content="2024-03-21T22:31:07-05:00">
+    
+    <meta property="article:modified_time" content="2024-03-21T22:31:07-05:00">
   
 
   
 
 
+    
 
+
+
+
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jianshuliu1721.github.io/publication/dsn24/"
+  },
+  "headline": "Grunt Attack: Exploiting Execution Dependencies in Microservices",
+  
+  "datePublished": "2024-03-21T22:31:07-05:00",
+  "dateModified": "2024-03-21T22:31:07-05:00",
+  
+  "author": {
+    "@type": "Person",
+    "name": "Xuhang Gu"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Jianshu Liu at BSU",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://jianshuliu1721.github.io/images/icon_hu5a64dca07800957cd1e84314126dae08_5057_192x192_fill_lanczos_center_2.png"
+    }
+  },
+  "description": "Loosely-coupled and lightweight microservices running in containers are likely to form complex execution dependencies inside the system. The execution dependency arises when two execution paths partially share component microservices, resulting in potential runtime blocking effects. In this paper, we present the Grunt Attack – a novel low-volume DDoS attack that takes advantage of the execution dependencies of microservice applications. The Grunt Attack utilizes legitimate HTTP requests to accurately profile the internal pairwise dependencies of all supported execution paths in the target system. By grouping and characterizing all the execution paths based on their pairwise dependencies, a Grunt attacker can target only a few execution paths to launch a low-volume DDoS attack that achieves large performance damage to the entire system. To increase the attack stealthiness, the Grunt attacker avoids creating a persistent bottleneck by alternating the target execution paths within their dependency group.\n\nWe validate the effectiveness of Grunt attack through experiments of open-source microservices benchmark applications on real clouds (e.g., EC2, Azure) equipped with state-of-the-art IDS/IPS systems and live attack scenarios. Our results show that Grunt attack consumes less than 20% additional CPU resource of the target system while increasing its average response time by over 10x."
+}
+</script>
+
+  
 
   
 
@@ -250,10 +295,13 @@
   
 
 
+  
 
 
 
-  <title>Huasong Shan | Jianshu Liu at BSU</title>
+
+
+  <title>Grunt Attack: Exploiting Execution Dependencies in Microservices | Jianshu Liu at BSU</title>
 
 </head>
 
@@ -523,36 +571,292 @@
 </nav>
 
 
+  <div class="pub">
+
   
 
 
 
-<div class="universal-wrapper pt-3">
-  <h1>Huasong Shan</h1>
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1>Grunt Attack: Exploiting Execution Dependencies in Microservices</h1>
+
+  
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+
+
+  
+  <span><a href="/authors/xuhang-gu/">Xuhang Gu</a></span>, <span><a href="/authors/qingyang-wang/">Qingyang Wang</a></span>, <span><a href="/authors/__jianshu-liu__/"><strong>Jianshu Liu</strong></a></span>, <span><a href="/authors/jinpeng-wei/">Jinpeng Wei</a></span>
+
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    March 2024
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+
+  
+  
+
+</div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
 </div>
 
 
-<section id="profile-page" class="pt-5">
-  <div class="container">
+
+  <div class="article-container">
+
     
+    <h3>Abstract</h3>
+    <p class="pub-abstract"><p>Loosely-coupled and lightweight microservices running in containers are likely to form complex execution dependencies inside the system. The execution dependency arises when two execution paths partially share component microservices, resulting in potential runtime blocking effects. In this paper, we present the Grunt Attack – a novel low-volume DDoS attack that takes advantage of the execution dependencies of microservice applications. The Grunt Attack utilizes legitimate HTTP requests to accurately profile the internal pairwise dependencies of all supported execution paths in the target system. By grouping and characterizing all the execution paths based on their pairwise dependencies, a Grunt attacker can target only a few execution paths to launch a low-volume DDoS attack that achieves large performance damage to the entire system. To increase the attack stealthiness, the Grunt attacker avoids creating a persistent bottleneck by alternating the target execution paths within their dependency group.</p>
+<p>We validate the effectiveness of Grunt attack through experiments of open-source microservices benchmark applications on real clouds (e.g., EC2, Azure) equipped with state-of-the-art IDS/IPS systems and live attack scenarios. Our results show that Grunt attack consumes less than 20% additional CPU resource of the target system while increasing its average response time by over 10x.</p>
+</p>
     
 
     
-    
-    
-    <div class="article-widget content-widget-hr">
-      <h3>Latest</h3>
-      <ul>
-        
-        <li>
-          <a href="/publication/icdcs19/">Tail Amplification in n-Tier Systems: A Study of Transient Cross-Resource Contention Attacks</a>
-        </li>
-        
-      </ul>
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Type</div>
+          <div class="col-12 col-md-9">
+            
+            
+            <a href="/publication/#1">
+              Conference paper
+            </a>
+            
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
     </div>
+    <div class="d-md-none space-below"></div>
     
+
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Publication</div>
+          <div class="col-12 col-md-9">To appear in <em>Proceedings of the 54th Annual IEEE/IFIP International Conference on Dependable Systems and Networks</em> <strong>(DSN&rsquo;24)</strong></div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    <div class="space-below"></div>
+
+    <div class="article-style"></div>
+
+    
+
+
+
+
+
+
+
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https://jianshuliu1721.github.io/publication/dsn24/&amp;text=Grunt%20Attack:%20Exploiting%20Execution%20Dependencies%20in%20Microservices" target="_blank" rel="noopener" class="share-btn-twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https://jianshuliu1721.github.io/publication/dsn24/&amp;t=Grunt%20Attack:%20Exploiting%20Execution%20Dependencies%20in%20Microservices" target="_blank" rel="noopener" class="share-btn-facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=Grunt%20Attack:%20Exploiting%20Execution%20Dependencies%20in%20Microservices&amp;body=https://jianshuliu1721.github.io/publication/dsn24/" target="_blank" rel="noopener" class="share-btn-email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https://jianshuliu1721.github.io/publication/dsn24/&amp;title=Grunt%20Attack:%20Exploiting%20Execution%20Dependencies%20in%20Microservices" target="_blank" rel="noopener" class="share-btn-linkedin">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://web.whatsapp.com/send?text=Grunt%20Attack:%20Exploiting%20Execution%20Dependencies%20in%20Microservices%20https://jianshuliu1721.github.io/publication/dsn24/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=https://jianshuliu1721.github.io/publication/dsn24/&amp;title=Grunt%20Attack:%20Exploiting%20Execution%20Dependencies%20in%20Microservices" target="_blank" rel="noopener" class="share-btn-weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+  
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="/authors/xuhang-gu/"></a></h5>
+      
+      
+      <ul class="network-icon" aria-hidden="true">
+  
+</ul>
+
+    </div>
   </div>
-</section>
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+  </div>
+</div>
 
       
 
