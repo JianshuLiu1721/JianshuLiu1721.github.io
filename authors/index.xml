@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Authors | Jianshu Liu at LSU</title>
+    <title>Authors | Jianshu Liu at BSU</title>
     <link>https://jianshuliu1721.github.io/authors/</link>
       <atom:link href="https://jianshuliu1721.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © 2023 Jianshu Liu</copyright><lastBuildDate>Thu, 05 Oct 2023 22:31:07 -0500</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © 2025 Jianshu Liu</copyright><lastBuildDate>Thu, 21 Mar 2024 22:31:07 -0500</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>Authors</title>
@@ -15,16 +15,48 @@
     <item>
       <title>__Jianshu Liu__</title>
       <link>https://jianshuliu1721.github.io/authors/__jianshu-liu__/</link>
-      <pubDate>Thu, 05 Oct 2023 22:31:07 -0500</pubDate>
+      <pubDate>Thu, 21 Mar 2024 22:31:07 -0500</pubDate>
       <guid>https://jianshuliu1721.github.io/authors/__jianshu-liu__/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Jinpeng Wei</title>
+      <link>https://jianshuliu1721.github.io/authors/jinpeng-wei/</link>
+      <pubDate>Thu, 21 Mar 2024 22:31:07 -0500</pubDate>
+      <guid>https://jianshuliu1721.github.io/authors/jinpeng-wei/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Qingyang Wang</title>
       <link>https://jianshuliu1721.github.io/authors/qingyang-wang/</link>
-      <pubDate>Thu, 05 Oct 2023 22:31:07 -0500</pubDate>
+      <pubDate>Thu, 21 Mar 2024 22:31:07 -0500</pubDate>
       <guid>https://jianshuliu1721.github.io/authors/qingyang-wang/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Xuhang Gu</title>
+      <link>https://jianshuliu1721.github.io/authors/xuhang-gu/</link>
+      <pubDate>Thu, 21 Mar 2024 22:31:07 -0500</pubDate>
+      <guid>https://jianshuliu1721.github.io/authors/xuhang-gu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Calton Pu</title>
+      <link>https://jianshuliu1721.github.io/authors/calton-pu/</link>
+      <pubDate>Mon, 15 Jan 2024 22:31:07 -0500</pubDate>
+      <guid>https://jianshuliu1721.github.io/authors/calton-pu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Qiben Yan</title>
+      <link>https://jianshuliu1721.github.io/authors/qiben-yan/</link>
+      <pubDate>Mon, 15 Jan 2024 22:31:07 -0500</pubDate>
+      <guid>https://jianshuliu1721.github.io/authors/qiben-yan/</guid>
       <description></description>
     </item>
     
@@ -33,14 +65,6 @@
       <link>https://jianshuliu1721.github.io/authors/shungeng-zhang/</link>
       <pubDate>Thu, 05 Oct 2023 22:31:07 -0500</pubDate>
       <guid>https://jianshuliu1721.github.io/authors/shungeng-zhang/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Xuhang Gu</title>
-      <link>https://jianshuliu1721.github.io/authors/xuhang-gu/</link>
-      <pubDate>Fri, 29 Sep 2023 22:31:07 -0500</pubDate>
-      <guid>https://jianshuliu1721.github.io/authors/xuhang-gu/</guid>
       <description></description>
     </item>
     
@@ -93,14 +117,6 @@
     </item>
     
     <item>
-      <title>Calton Pu</title>
-      <link>https://jianshuliu1721.github.io/authors/calton-pu/</link>
-      <pubDate>Mon, 13 Dec 2021 22:31:07 -0500</pubDate>
-      <guid>https://jianshuliu1721.github.io/authors/calton-pu/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Joshua Kimball</title>
       <link>https://jianshuliu1721.github.io/authors/joshua-kimball/</link>
       <pubDate>Mon, 13 Dec 2021 22:31:07 -0500</pubDate>
@@ -125,29 +141,22 @@
     </item>
     
     <item>
-      <title>Qiben Yan</title>
-      <link>https://jianshuliu1721.github.io/authors/qiben-yan/</link>
-      <pubDate>Wed, 10 Jul 2019 21:38:19 -0600</pubDate>
-      <guid>https://jianshuliu1721.github.io/authors/qiben-yan/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title></title>
       <link>https://jianshuliu1721.github.io/authors/admin/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://jianshuliu1721.github.io/authors/admin/</guid>
-      <description>&lt;p&gt;I am a Ph.D. candidate pursing Ph.D. degree in Division of Computer Science and Engineering at Louisiana State University, Baton Rouge. I am working in 
-&lt;a href=&#34;http://csc.lsu.edu/~qywang/ProjectWebsite/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;LSU Cloud Computing Lab&lt;/a&gt; as a research assistant under 
-&lt;a href=&#34;http://csc.lsu.edu/~qywang/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dr. Qingyang Wang&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;My interest lies in performance and scalability analysis of large-scale web applications and IoT stream processing systems, with the aim of achieving highly responsive systems running at high utilization in cloud. My research relies on timeline analysis with fine-grained monitoring metrics to investigate various factors that cause the performance variations of cloud systems, and improve system performance by adaptively tuning multiplex resources allocation via novel statistical or ML (e.g., reinforcement learning) approaches.&lt;/p&gt;
+      <description>&lt;p&gt;I am a tenure-track assistant professor in Department of Computer Science at 
+&lt;a href=&#34;https://www.boisestate.edu/coen-cs/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Boise State University&lt;/a&gt;, leading the ⭐ 
+&lt;a href=&#34;&#34;&gt;Pisces Lab&lt;/a&gt; ⭐. I received my Ph.D. degree in Computer Science from Louisiana State University in 2024, under the supervision of 
+&lt;a href=&#34;https://csc.lsu.edu/~qywang/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dr. Qingyang Wang&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;My interest lies in performance and scalability analysis of various cloud systems, with the aim of achieving &lt;strong&gt;good performance&lt;/strong&gt; and &lt;strong&gt;high resource efficiency&lt;/strong&gt; for evolving systems in cloud environments. My research relies on timeline analysis to investigate various factors that cause the performance variations of cloud systems. Moreover, we design and evaluate intelligent and automated frameworks to improve the system performance.&lt;/p&gt;
 &lt;p&gt;My collaborators are from 
 &lt;a href=&#34;https://www.augusta.edu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Augusta University&lt;/a&gt;, 
-&lt;a href=&#34;https://gatech.edu&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Georgia Institute of Technology&lt;/a&gt;, 
+&lt;a href=&#34;https://gatech.edu&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Georgia Tech&lt;/a&gt;, 
 &lt;a href=&#34;https://www.fujitsu.com/global/about/research/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Fujitsu Laboratories Ltd&lt;/a&gt;, etc. I have worked as a summer research intern at the 
 &lt;a href=&#34;https://www.uchicago.edu/en&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;University of Chicago&lt;/a&gt;, specifically in the 
-&lt;a href=&#34;https://labs.globus.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Globus Labs&lt;/a&gt; under the guidance of 
-&lt;a href=&#34;https://kylechard.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dr. Kyle Chard&lt;/a&gt;.&lt;/p&gt;
+&lt;a href=&#34;https://labs.globus.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Globus Labs&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;To prospective students:&lt;/code&gt; &lt;em&gt;I&amp;rsquo;m always looking for students who have a solid background in computer systems and share my research interests. If you are interested, please e-mail me with your Resume.&lt;/em&gt;&lt;/p&gt;
 </description>
     </item>
     
