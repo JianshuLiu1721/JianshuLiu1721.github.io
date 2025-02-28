@@ -5,12 +5,20 @@
     <link>https://jianshuliu1721.github.io/publication/</link>
       <atom:link href="https://jianshuliu1721.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © 2025 Jianshu Liu</copyright><lastBuildDate>Thu, 21 Mar 2024 22:31:07 -0500</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © 2025 Jianshu Liu</copyright><lastBuildDate>Wed, 26 Feb 2025 22:31:07 -0500</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>Publications</title>
       <link>https://jianshuliu1721.github.io/publication/</link>
     </image>
+    
+    <item>
+      <title>IrisBench: An Open-Source Benchmark Suite for Video Processing Systems in Cloud</title>
+      <link>https://jianshuliu1721.github.io/publication/hotcloudperf25/</link>
+      <pubDate>Wed, 26 Feb 2025 22:31:07 -0500</pubDate>
+      <guid>https://jianshuliu1721.github.io/publication/hotcloudperf25/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Grunt Attack: Exploiting Execution Dependencies in Microservices</title>
