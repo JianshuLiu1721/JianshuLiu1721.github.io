@@ -7,48 +7,48 @@ ninja.data = [{
     title: "About",
     section: "Navigation",
     handler: () => {
-      window.location.href = "/al-folio/";
+      window.location.href = "/";
     },
   },{id: "nav-projects",
           title: "Projects",
           description: "A growing collection of cool projects in Pisces Lab.",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/al-folio/projects/";
+            window.location.href = "/projects/";
           },
         },{id: "nav-publications",
           title: "Publications",
           description: "Peer-reviewed journal and conference publications",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/al-folio/publications/";
+            window.location.href = "/publications/";
           },
         },{id: "nav-teaching",
           title: "Teaching",
           description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/al-folio/teaching/";
+            window.location.href = "/teaching/";
           },
         },{id: "nav-cv",
           title: "CV",
           description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/al-folio/cv/";
+            window.location.href = "/cv/";
           },
         },{id: "nav-open-positions",
           title: "Open Positions",
           description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/al-folio/positions/";
+            window.location.href = "/positions/";
           },
         },{id: "books-the-godfather",
           title: 'The Godfather',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/al-folio/books/the_godfather/";
+              window.location.href = "/books/the_godfather/";
             },},{id: "news-intern-started-internship-at-globus-labs",
           title: '[Intern] Started Internship at Globus Labs!',
           description: "",
@@ -110,80 +110,80 @@ ninja.data = [{
           title: 'project 2',
           description: "a project with a background image and giscus comments",
           section: "Projects",handler: () => {
-              window.location.href = "/al-folio/projects/2_project/";
+              window.location.href = "/projects/2_project/";
             },},{id: "projects-project-3-with-very-long-name",
           title: 'project 3 with very long name',
           description: "a project that redirects to another website",
           section: "Projects",handler: () => {
-              window.location.href = "/al-folio/projects/3_project/";
+              window.location.href = "/projects/3_project/";
             },},{id: "projects-project-4",
           title: 'project 4',
           description: "another without an image",
           section: "Projects",handler: () => {
-              window.location.href = "/al-folio/projects/4_project/";
+              window.location.href = "/projects/4_project/";
             },},{id: "projects-project-5",
           title: 'project 5',
           description: "a project with a background image",
           section: "Projects",handler: () => {
-              window.location.href = "/al-folio/projects/5_project/";
+              window.location.href = "/projects/5_project/";
             },},{id: "projects-project-6",
           title: 'project 6',
           description: "a project with no image",
           section: "Projects",handler: () => {
-              window.location.href = "/al-folio/projects/6_project/";
+              window.location.href = "/projects/6_project/";
             },},{id: "projects-project-7",
           title: 'project 7',
           description: "with background image",
           section: "Projects",handler: () => {
-              window.location.href = "/al-folio/projects/7_project/";
+              window.location.href = "/projects/7_project/";
             },},{id: "projects-project-8",
           title: 'project 8',
           description: "an other project with a background image and giscus comments",
           section: "Projects",handler: () => {
-              window.location.href = "/al-folio/projects/8_project/";
+              window.location.href = "/projects/8_project/";
             },},{id: "projects-project-9",
           title: 'project 9',
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
-              window.location.href = "/al-folio/projects/9_project/";
+              window.location.href = "/projects/9_project/";
             },},{id: "projects-resource-management-of-web-applications",
           title: 'Resource Management of Web Applications',
           description: "03/2019 - Present",
           section: "Projects",handler: () => {
-              window.location.href = "/al-folio/projects/project_1/";
+              window.location.href = "/projects/project_1/";
             },},{id: "projects-performance-evaluation-of-video-processing-systems",
           title: 'Performance Evaluation of Video Processing Systems',
           description: "06/2024 - Present",
           section: "Projects",handler: () => {
-              window.location.href = "/al-folio/projects/project_2/";
+              window.location.href = "/projects/project_2/";
             },},{id: "projects-navigating-dynamic-stateful-stream-processing-apps",
           title: 'Navigating Dynamic Stateful Stream Processing Apps',
           description: "12/2021 - Present",
           section: "Projects",handler: () => {
-              window.location.href = "/al-folio/projects/project_3/";
+              window.location.href = "/projects/project_3/";
             },},{id: "projects-improving-ai-ml-guided-scientific-data-analytics",
           title: 'Improving AI/ML-guided Scientific Data Analytics',
           description: "05/2023 - Present",
           section: "Projects",handler: () => {
-              window.location.href = "/al-folio/projects/project_4/";
+              window.location.href = "/projects/project_4/";
             },},{id: "projects-performance-analysis-of-dracena",
           title: 'Performance Analysis of Dracena',
           description: "12/2021 - 05/2024",
           section: "Projects",handler: () => {
-              window.location.href = "/al-folio/projects/project_5/";
+              window.location.href = "/projects/project_5/";
             },},{id: "projects-integrating-dt-with-smart-city-apps",
           title: 'Integrating DT with Smart City Apps',
           description: "12/2024 - Present",
           section: "Projects",handler: () => {
-              window.location.href = "/al-folio/projects/project_6/";
+              window.location.href = "/projects/project_6/";
             },},{id: "projects-ubiquitous-healthcare-with-mobile-sensing",
           title: 'Ubiquitous Healthcare with Mobile Sensing',
           description: "10/2024 - Present",
           section: "Projects",handler: () => {
-              window.location.href = "/al-folio/projects/project_7/";
+              window.location.href = "/projects/project_7/";
             },},{id: "projects-ddos-attacks-of-web-systems",
           title: 'DDoS Attacks of Web Systems',
           description: "05/2019 - Present",
           section: "Projects",handler: () => {
-              window.location.href = "/al-folio/projects/project_8/";
+              window.location.href = "/projects/project_8/";
             },},];
