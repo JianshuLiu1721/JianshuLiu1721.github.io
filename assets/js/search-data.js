@@ -37,6 +37,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
+        },{id: "nav-team",
+          title: "Team",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/team/";
+          },
         },{id: "nav-open-positions",
           title: "Open Positions",
           description: "",
@@ -129,6 +136,12 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "news-service-serving-on-the-tpc-committee-at-icdcs-2026",
           title: '[Service] Serving on the TPC Committee at ICDCS 2026.',
+          description: "",
+          section: "News",},{id: "news-paper-our-work-flushsync-accepted-by-debs-26-congrats-prajwal",
+          title: '[Paper] Our work “FlushSync” accepted by DEBS’26! Congrats, Prajwal!',
+          description: "",
+          section: "News",},{id: "news-students-dinisha-suhas-and-kiarra-will-join-amazon-as-sde-interns-in-summer-2026-have-a-nice-summer-in-seattle",
+          title: '[Students] Dinisha, Suhas, and Kiarra will join Amazon as SDE interns in Summer...',
           description: "",
           section: "News",},{id: "projects-project-2",
           title: 'project 2',
